@@ -1,0 +1,4 @@
+kickstart
+=========
+
+Kickstart Wordpress theme

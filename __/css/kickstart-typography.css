@@ -1,0 +1,43 @@
+/* Setting up fonts
+ *
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oswald);
+
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  color: #4D99E0;
+}
+
+ul li {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+/* Header fonts
+ *
+ */
+
+
+#header {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;  
+}
+
+#header:hover {
+  text-decoration: underline;
+}

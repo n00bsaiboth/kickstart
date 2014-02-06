@@ -1,45 +1,26 @@
-/* Setting up fonts
- *
- */
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oswald);
-
-
-p, a {
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-h1, h2, h3,
-h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: normal;
-  color: #4D99E0;
-}
-
-ul li {
-    font-family: 'Open Sans', sans-serif; 
-}
-
-/* Header fonts
- *
+/* Header container
+ * 
  */
 
 
-#header {
-  font-family: 'Oswald', sans-serif;
-  text-decoration: none;  
-}
+/* Content container
+ * 
+ */
 
-#header:hover {
-  text-decoration: underline;
+/* Footer container
+ * 
+ */
+
+.footer-container {
+	margin: 0;
+	padding: 4px;
+	border:1px solid #ccc;
+	background: #eee; /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(224,224,224,1) 100%); /* Opera11.10+ */
+	background: linear-gradient(top, rgba(252,252,252,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
 }
 
 /* Jumbotron from bootstrap

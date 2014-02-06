@@ -10,10 +10,10 @@
 
 ?>
 
-<footer>
-	
-</footer>
-
+		<footer class="footer-container">
+			<p>GNU General Public License v2 or later</p>
+		</footer>
+	</div><!-- end grid -->
 
 <?php
 	wp_footer();

@@ -10,7 +10,7 @@
 	get_header();
 ?>
 
-<section id="content" role="main">
+<section id="content" role="page">
 	<?php
 		if ( have_posts() ) : while ( have_posts() ) : the_post();
 	?>
